@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "Hello World vat fast api..."}
+    return {"message": "Mi primer API en Python"}
 
 
 if __name__ == "__main__":
